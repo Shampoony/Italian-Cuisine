@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Project</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__top">
+                    <a class="logo" href="index.html">
+                        <img src="images/loho.png">
+                        <div>Delisi<span>oso</span></div>
+                    </a>
+                    <nav class="header__menu menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item active">
+                                <a href="#!">Home</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#!">Menu</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#!">About us</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#!">Order online</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#!">Reservation</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#!">Contact us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__content">
+                        <div class="header__cart">
+                            <div>3</div>
+                            <img src="images/icon-cart.png" alt="cart">
+                        </div>
+                        <button class="header__login css-button js-button-login">Log in</button>
+                        <div class="burger">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__main">
+                    <div class="header__description">
+                        <h5 class="header__annotation">Restauran</h5>
+                        <h1 class="header__title">Italian Cuisine</h1>
+                        <p class="header__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sodales senectus dictum arcu sit tristique donec eget.</p>
+                        <div class="header__buttons">
+                            <button class="header__main-btn order-now-button css-button">Order now</button>
+                            <button class="header__main-btn reservation-button css-button">Reservation</button>
+                        </div>
+                    </div>
+                    <img src="images/header-illustration.png" alt="">
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="wellcome">
+                <div class="wellcome__container container">
+                    <img src="images/wellcome-picture.png" alt="wellcome">
+                    <div class="wellcome__content">
+                        <h2 class="wellcome__title title">Welcome to <span>delizioso</span></h2>
+                        <p class="wellcome__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Facilisis ultricies at eleifend proin. Congue nibh nulla malesuada ultricies nec quam </p>
+                        <a href="#!" class="wellcome__link css-button">See our menu</a>
+                    </div>
+                </div>
+            </section>
+            <section class="menu-res">
+                <div class="menu-res__container container">
+                    <h1 class="menu-res__title title">Our popular menu</h1>
+                    <div class="tabs">
+                        <ul class="tabs__container">
+                            <li data-tab="tab1" class="tabs__title active">All catagory</li>
+                            <li data-tab="tab2" class="tabs__title">Dinner</li>
+                            <li data-tab="tab3" class="tabs__title">Lunch</li>
+                            <li data-tab="tab4" class="tabs__title">Dessert</li>
+                            <li data-tab="tab5" class="tabs__title">Drink</li>
+                        </ul>
+                        <div class="tabs__wrapper">
+                            <div id="tab1" class="tabs__content">
+                                <div class="menu-card">
+                                    <img src="images/goods/spagehetti.png" alt="spagehetti">
+                                    <h4>Spaghetti</h4>
+                                    <img src="images/4stars.png" alt="4-stars">
+                                    <p class="menu-card__description subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Egestas consequat mi eget auctor aliquam, diam. </p>
+                                    <div class="menu-card__footer">
+                                        <h4>$12.05</h4>
+                                        <button class="css-button menu-res__card-button"><div>+</div>Order now</button>
+                                    </div>
+                                </div>  
+                                <div class="menu-card">
+                                    <img src="images/goods/Gnocchi.png" alt="spagehetti">
+                                    <h4>Gnocchi</h4>
+                                    <img src="images/4stars.png" alt="4-stars">
+                                    <p class="menu-card__description subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Egestas consequat mi eget auctor aliquam, diam. </p>
+                                    <div class="menu-card__footer">
+                                        <h4>$12.05</h4>
+                                        <button class="css-button menu-res__card-button"><div>+</div>Order now</button>
+                                    </div>
+                                </div>  
+                                <div class="menu-card">
+                                    <img src="images/goods/Rovioli.png" alt="spagehetti">
+                                    <h4>Rovioli</h4>
+                                    <img src="images/4stars.png" alt="4-stars">
+                                    <p class="menu-card__description subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Egestas consequat mi eget auctor aliquam, diam. </p>
+                                    <div class="menu-card__footer">
+                                        <h4>$12.05</h4>
+                                        <button class="css-button menu-res__card-button"><div>+</div>Order now</button>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div id="tab2" class="tabs__content hidden-tabs-content">
+                                block2
+                            </div>
+                            <div id="tab3" class="tabs__content hidden-tabs-content">
+                            </div>
+                            <div id="tab4" class="tabs__content hidden-tabs-content"></div>
+                        </div>
+                    </div>
+                    <div class="menu-res__pagination">
+                        <ul class="menu-res__pagination-list">
+                            <li class="menu-res__pagination-prev"><img src="images/prev.jpg" alt=""></li>
+                            <li class="menu-res__pagination-item">1</li>
+                            <li class="menu-res__pagination-item">2</li>
+                            <li class="menu-res__pagination-prev"><img src="images/next.jpg" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="reserve">
+                <div class="reserve__container container">
+                    <img src="images/reserve.png" alt="wellcome">
+                    <div class="reserve__content">
+                        <h2 class="reserve__title title">Let`s reserve<span> a table</span></h2>
+                        <p class="reserve__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Facilisis ultricies at eleifend proin. Congue nibh nulla malesuada ultricies nec quam </p>
+                        <a href="#!" class="reserve__link css-button">Reservation</a>
+                    </div>
+                </div>
+            </section>
+            <section class="workers">
+                <div class="workers__container container">
+                    <h2 class="workers__title title">Our greatest chef</h2>
+                    <ul class="workers__list">
+                        <li class="workers__list-item">
+                            <img src="images/workers/1.jpg" alt="">
+                            <h4 class="css-name">Betran Komar</h4>
+                            <div>Head chef</div>
+                        </li>
+                        <li class="workers__list-item">
+                            <img src="images/workers/2.jpg" alt="">
+                            <h4 class="css-name">Ferry Sauwi</h4>
+                            <div>Chef</div>
+                        </li>
+                        <li class="workers__list-item">
+                            <img src="images/workers/3.jpg" alt="">
+                            <h4 class="css-name">Iswan Dracho</h4>
+                            <div>Chef</div>
+                        </li>
+                    </ul>
+                    <button class="workers__button css-button">View all</button>
+                </div>
+            </section>
+            <section class="review">
+                <div class="review__container container">
+                    <h2 class="review__title title">
+                        Our customers say
+                    </h2>
+                    <div class="review__reviewer">
+                        <img src="images/reviewer.png" alt="reviewer">
+                        <h4 class="review__name css-name">Starla Virgoun</h4>
+                        <div class="review__position">Financial advisor</div>
+                    </div>
+                    <p class="review__text subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ultricies at eleifend proin. Congue nibh nulla malesuada ultricies nec quam </p>
+                    <img src="images/carusel.png" alt="">
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__handler">
+                    <div class="footer__content">
+                        <a class="logo footer__logo" href="index.html">
+                            <img src="images/loho.png">
+                            <div>Delisi<span>oso</span></div>
+                        </a>
+                        <div class="footer__subtitle subtitle">
+                            Viverra gravida morbi egestas facilisis tortor netus non duis tempor. 
+                        </div>
+                        <div class="socials">
+                            <a href="">
+                                <img src="images/twitter.png" alt="">
+                            </a>
+                            <a href="">
+                                <img src="images/Instagram.png" alt="">
+                            </a>
+                            <a href="">
+                                <img src="images/Facebook.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__nav">
+                        <ul class="footer__list">
+                            <li class="footer__list-item"><a href="">Page</a></li>
+                            <li class="footer__list-item"><a href="">Home</a></li>
+                            <li class="footer__list-item"><a href="">Menu</a></li>
+                            <li class="footer__list-item"><a href="">Order online</a></li>
+                            <li class="footer__list-item"><a href="">Catering</a></li>
+                            <li class="footer__list-item"><a href="">Reservation</a></li>
+                        </ul>
+                        <ul class="footer__list">
+                            <li class="footer__list-item"><a href="">Information</a></li>
+                            <li class="footer__list-item"><a href="">About us</a></li>
+                            <li class="footer__list-item"><a href="">Testimonial</a></li>
+                            <li class="footer__list-item"><a href="">Event</a></li>
+                        </ul>
+                        <ul class="footer__list">
+                            <li class="footer__list-item"><a href="">Get in touch</a></li>
+                            <li class="footer__list-item"><a href="">3247 Johnson Ave, Bronx, NY 10463, Amerika Serikat</a></li>
+                            <li class="footer__list-item"><a href="">delizioso@gmail.com</a></li>
+                            <li class="footer__list-item"><a href="">+123 4567 8901</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__copyright">Copyright © 2022 Delizioso</div>
+            </div>
+        </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
